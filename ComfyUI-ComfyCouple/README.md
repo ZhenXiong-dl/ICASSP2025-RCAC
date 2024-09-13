@@ -1,4 +1,4 @@
-# Comfy Couple
+# Comfy Couple for HunyuanDit adn SDXL
 
 ## What is
 
@@ -35,22 +35,9 @@ It's fork of [**laksjdjf/attention-couple-ComfyUI**](https://github.com/laksjdjf
 2. Choose node: **loaders → Comfy Couple**
 3. Connect inputs, connect outputs, notice **two** positive prompts for left side and right side of image respectively.
 
-Example workflow is [here](workflows/workflow-comfy-couple.json).
-
-## Known issues
-
-It **is not** quite actual regional prompting.
-
-## Comparison with [**laksjdjf/attention-couple-ComfyUI**](https://github.com/laksjdjf/attention-couple-ComfyUI)
-
-Mask magic was replaced with comfy shortcut.
-
-| Comfy Couple | attention-couple-ComfyUI |
-| --- | --- |
-| ![Comfy Couple workflow](docs/images/workflow-comfy-couple.svg) | ![attention-couple-ComfyUI workflow](docs/images/workflow-attention-couple.svg) |
-
 ## Credits
 
+- [**@Danand**](https://github.com/Danand) – [original repo](https://github.com/Danand/ComfyUI-ComfyCouple).
 - [**@laksjdjf**](https://github.com/laksjdjf) – [original repo](https://github.com/laksjdjf/attention-couple-ComfyUI).
 - [**@pythongosssss**](https://github.com/pythongosssss) – [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) used for capturing SVG for `README.md`
 - [**@Meina**](https://civitai.com/user/Meina) – [MeinaMix V11](https://civitai.com/models/7240/meinamix) used in example.
