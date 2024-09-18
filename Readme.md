@@ -6,9 +6,9 @@ The official code for the paper *Enhancing Image Generation Fidelity via progres
 
 - Option1
 
-Deploy env for ComfyUI, and cd  modified [ComfyUI folder](ComfyUI)  and start the modified ComfyUI by  `python main.py`.
+Deploy environment for ComfyUI, and cd modified [ComfyUI folder](ComfyUI) and start the modified ComfyUI by`python main.py`.
 
-About Comfy Deploy and Start,  pls referring to  [README.md](ComfyUI\README.md).
+About Comfy Deploy and Start, please referring to [README.md](ComfyUI/README.md).
 
 - Option2 （if you have runnable ComfyUI instance)
 
@@ -20,34 +20,34 @@ cp -r dir [ComfyUI-ComfyCouple](ComfyUI-ComfyCouple) to`{comfy_path}\custom_node
 
 (This is a custom node for Controllable Region-Attention module used in ComfyUI)
 
-### Implemented Nodes by us
+### Implemented Nodes by Us
 
 ![workflow (7)](assets/workflow_7.png)
 
 You can use this node to inference image by applying Controllable Region-Attention module to Hunyuan-DiT.
 
-### Workflow
+### Workflows
 
-workflows can be found in [here](Workflow). it can be load by ComfyUI .
+workflows can be found in [here](Workflow), which can be load by ComfyUI.
 
-#### 2 region for Attention control
+#### 2-Region Control
 
 ![workflow (3)](assets/workflow_3.png)
 
-#### 4 region for Attention control
+#### 4-Region Control
 
 ![workflow (4)](assets/workflow_4.png)
 
-####  9 region for Attention control
+####  9-Region Control
 
 ![workflow (5)](assets/workflow_5.png)
 
-#### Control Applied Blocks numbers in Dit
+#### Altering Number of Proposed Blocks in DiT
 
 ![workflow (6)](assets/workflow_6.png)
 
 
 
-#### Thanks
+## Thanks
 
 [**@Danand**](https://github.com/Danand) – [original repo](https://github.com/Danand/ComfyUI-ComfyCouple). It's a couple method for SDXL.
