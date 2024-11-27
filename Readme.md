@@ -12,7 +12,7 @@ About Comfy Deploy and Start, please referring to [README.md](ComfyUI/README.md)
 
 - Option2 （if you have runnable ComfyUI instance)
 
-cp py file [models.py](comfy\ldm\hydit\models.py) to `{comfy_path}\comfy\ldm\hydit`.       
+cp py file [models.py](comfy/ldm/hydit/models.py) to `{comfy_path}\comfy\ldm\hydit`.       
 
 (we register the forward process of  Hunyuan-DiT)
 
